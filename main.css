@@ -1,0 +1,29 @@
+body {
+    color: blue;
+    background-color: blanchedalmond;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.list-position{
+    list-style: none;
+    position: fixed;
+    top: 0;
+    right: 50px;
+}
+
+.list-position li {
+    display: inline-block;
+}
+
+.list-position li a{
+    padding: 10px 15px;
+    background-color: beige;
+}
+
+img {
+    opacity: 0.9;
+}
+.list-position {text-align: center;}
+
+p {text-align: center;color:}
+p {background-color: beige;}
