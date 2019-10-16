@@ -1,10 +1,55 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
 body {
-    color: blue;
-    background-color: blanchedalmond;
-    font-family: Arial, Helvetica, sans-serif;
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
 }
 
-.list-position{
+
+/*START*/
+body {
+    color: black;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+/* .list-position{
     list-style: none;
     position: fixed;
     top: 0;
@@ -18,12 +63,71 @@ body {
 .list-position li a{
     padding: 10px 15px;
     background-color: beige;
-}
+} */
 
-img {
+/* img {
     opacity: 0.9;
 }
-.list-position {text-align: center;}
+.list-position {
+    text-align: center;
+}
 
-p {text-align: center;color:}
-p {background-color: beige;}
+p {
+    text-align: right; 
+    color:
+}
+p {background-color: beige;} */
+header {
+    position: fixed;
+    width: 100vw;
+    min-height: 4em;
+    top: 0;
+    background-color: rgba(250, 250, 250, .25);
+    z-index: 999;
+}
+
+header h1 {
+    float: left;
+}
+
+header nav {
+    float: right;
+}
+
+.list-position li{
+    display: inline-block;
+    margin: 1.75em 1.5em;
+}
+
+.list-position li a{
+    background-color: grey;
+    color: #fff;
+    padding: 1.5em 1em;
+}
+
+.wrapper{
+    position: relative;
+    height: 100vh;
+    background-color: rgba(0,0,0, .75);
+}
+
+.wrapper::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: url('images/WEB.jpg') no-repeat center center/cover;
+    z-index: -1;
+}
+
+.wrapper-content {
+    width: 75%;
+    margin: 0 auto;
+    padding-top: 10em;
+    text-align: center;
+    color: #fff;
+}
+
+
