@@ -157,6 +157,20 @@ p{
 
 .My-picture{
     float: left;
+    margin: -1em 2em;
+}
+.wrapper-para{
+    float: left;
+    position: relative;
 }
 
+.abtme {
+    text-align: left;
+    font-weight: normal;
+    font-size: 1em;
+    margin-right: -9em;
+}
 
+.wrapper {
+    color: #fff;
+}
