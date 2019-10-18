@@ -187,3 +187,22 @@ p{
 
 }
 
+.grid-container {
+    display: grid;
+    grid-template-areas: "header header ";
+    grid-gap: 15px;
+    background-color: transparent;
+    padding:10px;
+
+    
+}
+.grid-container > div {
+    background-color: rgba(0,0,0, .75);
+    text-align: center;
+    padding:0 0;
+    font-size: 15px;
+}
+.container {
+    position: relative;
+    width: 50%;
+}
