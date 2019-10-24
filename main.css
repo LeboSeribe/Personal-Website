@@ -156,7 +156,7 @@ font-size: 40px;
 
 }
 p{
-    font-size: 30px;
+    font-size: 25px;
 }
 .wrapper-para{
     float: left;
@@ -173,6 +173,8 @@ p{
     position: relative;
     background-color: rgba(0,0,0, .75);
 }
+
+
 
 .abtme {
     text-align: left;
@@ -255,7 +257,7 @@ background-color: rgba(0,0,0, .75);
 
 .column{
     float:left;
-    width:20%;
+    width:15%;
 
     
 }
@@ -266,26 +268,7 @@ background-color: rgba(0,0,0, .75);
     display: table;
 }
 
-element.style{
-    height: 28px;
-    width: 95%;
-}
-.w3-dark-grey{
-    color: #fff!important;
-    background-color: #616161!important;
-}
-*, *:before, *:after{
-    box-sizing: inherit;
-}
-div{
-    display: block;
-}
-.w3-white, .w3-hover-white:hover{
-    width: 3css 170px;
-    color: #000!important;
-    background-color: #fff!important;
+.link{
+    margin-left: -60px;
 }
 
-.w3-text-grey, .w3-hover-text-grey:hover, .w3-text-gray, .w3-hover-text-gray:hover {
-    color: #757575!important;
-}
