@@ -47,7 +47,9 @@ table {
 body {
     /*background-color: rgba(250, 250, 250, .25);
     color: black;*/
-    font-family: Arial, Helvetica, sans-serif;
+
+    font-family: 'Cormorant Infant', serif;
+    
 }
 
 /* .list-position{
@@ -161,8 +163,9 @@ p{
 }
 
 .My-picture{
-    margin: -1em 2em;
+    margin: 1em 2em;
     float: left;
+    position: relative;
     
 }
 .wrapper-para{
@@ -174,8 +177,9 @@ p{
 .abtme {
     text-align: left;
     font-weight: normal;
-    font-size: 1em;
+    font-size: 1.23em;
     margin-right: -9em;
+    margin: 2px;
     
 
 }
@@ -229,6 +233,59 @@ p{
 
 .footer{
 height: 30px;
-/* margin-top: 260px; */
 background-color: rgba(0,0,0, .75);
+}
+
+.skills-content1{
+    text-align: left;
+    text-indent: -120px;
+    font-size: 1.23em;
+}
+/*.skills-content2{
+    text-align: left;
+    float: right;
+    margin-top: -320px;
+    
+}*/
+
+*{
+    box-sizing: border-box;
+}
+
+
+.column{
+    float:left;
+    width:20%;
+
+    
+}
+
+.row::after{
+    content: "";
+    clear: both;
+    display: table;
+}
+
+element.style{
+    height: 28px;
+    width: 95%;
+}
+.w3-dark-grey{
+    color: #fff!important;
+    background-color: #616161!important;
+}
+*, *:before, *:after{
+    box-sizing: inherit;
+}
+div{
+    display: block;
+}
+.w3-white, .w3-hover-white:hover{
+    width: 3css 170px;
+    color: #000!important;
+    background-color: #fff!important;
+}
+
+.w3-text-grey, .w3-hover-text-grey:hover, .w3-text-gray, .w3-hover-text-gray:hover {
+    color: #757575!important;
 }
