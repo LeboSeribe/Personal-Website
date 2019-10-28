@@ -139,6 +139,7 @@ header nav {
     text-align: center;
     color: #fff;
     font-family: 'Cormorant Infant', serif;
+    font-size: 17px;
     
     
     
@@ -181,13 +182,13 @@ p{
     font-weight: normal;
     font-size: 1.23em;
     margin-right: -9em;
-    margin: 2px;
+    margin: 0px;
     
 
 }
 
 
-@media only screen and (max-width:700px){
+/*@media only screen and (max-width:700px){
 
 }
 
@@ -197,7 +198,7 @@ p{
 
 @media only screen and (max-width:411px){
 
-}
+}*/
 
 .grid-container {
     display: grid;
